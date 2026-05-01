@@ -14,11 +14,11 @@ const Group = React.lazy(() => import("@/routes/group.tsx"));
 const CreateGroup = React.lazy(() => import("@/routes/create-group/page"));
 const Engagements = React.lazy(() => import("@/routes/engagements"));
 // Settings
-const Account = React.lazy(() => import("@/routes/account/layout.tsx"));
-const AccountAccountForm = React.lazy(() => import("@/routes/account/account/page"));
-const AccountAuthenticationForm = React.lazy(() => import("@/routes/account/authentication/page"));
-const AccountAppearanceForm = React.lazy(() => import("@/routes/account/appearance/page"));
-const AccountActiveSessionsForm = React.lazy(() => import("@/routes/account/active-sessions/page"));
+const Account = React.lazy(() => import("./routes/settings/layout.tsx"));
+const AccountAccountForm = React.lazy(() => import("./routes/settings/account/page"));
+const AccountAuthenticationForm = React.lazy(() => import("./routes/settings/authentication/page"));
+const AccountAppearanceForm = React.lazy(() => import("./routes/settings/appearance/page"));
+const AccountActiveSessionsForm = React.lazy(() => import("./routes/settings/active-sessions/page"));
 
 /*
  * Public Routes

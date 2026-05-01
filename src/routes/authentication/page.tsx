@@ -26,11 +26,13 @@ export default function AuthenticationPage() {
                             />
                     }
                 </div>
-                <Link to={"/"}
-                      className={"relative z-20 flex w-min items-center gap-2 text-lg transition-all hover:text-primary"}>
-                    <Logo size={32} className={"text-primary"}/>
-                    <h1 className={"font-bold tracking-widest"}>Acme</h1>
-                </Link>
+                <div className={"relative z-20 flex items-center justify-between"}>
+                    <Link to={"/"}
+                          className={"flex items-center gap-2 text-lg transition-all hover:text-primary"}>
+                        <Logo size={32} className={"text-primary"}/>
+                        <h1 className={"font-semibold"}>Acme, Inc</h1>
+                    </Link>
+                </div>
                 <div className="relative z-20 mt-auto">
                     <p className="text-sm text-muted-foreground">
                         A React + Vite + shadcn/ui starter kit.

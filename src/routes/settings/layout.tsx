@@ -26,7 +26,7 @@ export default function SettingsLayout() {
 
     return (
         <>
-            <div className="flex flex-col gap-6 py-16">
+            <div className="flex flex-col gap-6 py-8">
                 <div className="flex flex-row items-center gap-3">
                     <Avatar className="size-14">
                         <AvatarImage src={authData.me?.avatar ?? undefined}

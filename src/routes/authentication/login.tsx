@@ -15,8 +15,7 @@ export default function Login() {
                                 {/*<h1 className="text-2xl font-semibold tracking-tight">*/}
                                 {/*    Create an account*/}
                                 {/*</h1>*/}
-                                <h1 className={"text-center text-3xl font-bold"}>Penetrate your
-                                    app.</h1>
+                                <h1 className={"text-center text-3xl font-bold"}>Sign In</h1>
                                 <p className="text-sm text-muted-foreground">
                                     Enter your email below to login or create your account
                                 </p>

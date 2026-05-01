@@ -9,7 +9,7 @@ export default function SidebarLogo() {
                      className={`flex w-full items-center gap-2 fill-primary text-black transition-opacity hover:opacity-75 dark:text-white`}>
                 <Logo size={22}
                       className={"fill-inherit transition-colors"}/>
-                <h1 className={"text-base font-bold tracking-widest"}>Acme</h1>
+                <h1 className={"text-base font-semibold"}>Acme, Inc</h1>
             </NavLink>
         </div>
     )

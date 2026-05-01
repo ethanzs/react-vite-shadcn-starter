@@ -10,6 +10,7 @@ export function Logo(props: LogoComponentPropType): React.ReactElement {
 			width={props.size}
 			height={props.size}
 			viewBox="0 0 1417 2394"
+			fill="currentColor"
 			aria-hidden="true"
 		>
 			<g transform="scale(1) translate(0, 0)">
