@@ -1,5 +1,7 @@
 # react-vite-shadcn-starter
 
+![Banner](./public/banner.png)
+
 An opinionated, production-leaning starter for building authenticated SPAs with **React 19**, **Vite 8**, **TypeScript 6**, **Tailwind CSS v4**, and **shadcn/ui**.
 
 This isn't a "hello world" template — it ships with a four-state auth machine, lazy-loaded routes, a typed API layer, error boundaries, a custom logger, manual bundle chunks, and a test setup. Most of what you'd otherwise wire up by hand on day one is already there.
